@@ -1,0 +1,83 @@
+.container
+  max-width: 600px
+
+@media (max-width: 620px)
+  .container
+    max-width: 90%
+
+.content-row
+  height: 290px
+
+.content-area
+  background-color: #ffffff
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.50)
+  border-radius: 4px
+  display: -webkit-box
+  display: flex
+  -webkit-box-pack: center
+  justify-content: center
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  flex-direction: column
+
+  .content-area--header-claim
+    font-family: HelveticaNeue-Bold !important
+    font-size: 45px
+    color: #252525
+    letter-spacing: 0
+    text-align: center
+    line-height: 50px
+    padding-left: 110px
+    padding-right: 110px
+
+  @media (max-width: 620px)
+    .content-area--header-claim
+      font-size: 35px
+      padding-left: 20px
+      padding-right: 20px
+
+  .content-area--timer
+    font-family: HelveticaNeue-Medium !important
+    font-size: 30px
+    color: #FF4DC1
+    letter-spacing: 0
+    text-align: center
+    line-height: 35px
+    padding-top: 21.5px
+    padding-bottom: 21.5px
+
+  .content-area--button-section
+
+    .div-button-claim
+      height: 55px
+      width: 193px
+      background-image: linear-gradient(-180deg, #FF78CF 0%, #FF18B0 99%)
+      box-shadow: 0 2px 0 0 #B00E78
+      border-radius: 27.5px
+      font-family: Helvetica
+      font-weight: 600
+      font-size: 22px
+      color: #FFFFFF
+      letter-spacing: 0
+      text-align: center
+      line-height: 35px
+      cursor: pointer
+      margin: auto
+      display: -webkit-box
+      display: flex
+      -webkit-box-pack: center
+      justify-content: center
+      -webkit-box-orient: vertical
+      -webkit-box-direction: normal
+      flex-direction: column
+
+    .div-button-claim:hover
+      background-image: linear-gradient(-180deg, #FF18B0 99%, #FF78CF 0%)
+
+
+.container
+  height: 100vh
+  position: relative
+  display: flex
+  justify-content: center
+  flex-direction: column

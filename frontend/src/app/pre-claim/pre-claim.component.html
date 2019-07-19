@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row content-row">
+        <div class="col-md-12 content-area">
+            <div class="content-area--header-claim">{{oData?.amount}} {{oData?.prize}} on {{oData?.game}}</div>
+            <div class="content-area--timer">{{oData?.countdown | minuteSeconds}}</div>
+            <div class="content-area--button-section">
+                <div class="div-button-claim" (click)="makeClaim()">Claim now</div>
+            </div>
+        </div>
+    </div>
+</div>

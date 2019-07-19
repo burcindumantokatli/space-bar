@@ -1,0 +1,4 @@
+<app-pre-claim [claimData]="preClaimData$" (claimMade)="isClaimMade($event)" *ngIf="!boolClaimed"></app-pre-claim>
+<app-post-claim [claimData]="postClaimData$" *ngIf="boolClaimed"></app-post-claim>
+
+<router-outlet></router-outlet>
